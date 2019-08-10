@@ -6,9 +6,11 @@
 
 GraphQL API starter using [Nest](https://github.com/nestjs/nest) framework, [TypeORM](https://github.com/typeorm/typeorm) and Postgres.
 
-## Installation
+## Installation 
 
 ```bash
+git clone git@github.com:rohanfaiyazkhan/nest-graphql-postgres.git
+cd nest-graphql-postgres
 $ yarn 
 ```
 

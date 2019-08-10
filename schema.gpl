@@ -3,6 +3,23 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type CreateCatDto {
+  id: String!
+  name: String!
+  breed: String!
+  age: Float!
+}
+
+input inputCat {
+  name: String!
+  breed: String!
+  age: Float!
+}
+
+type Mutation {
+  createCat(data: inputCat!): CreateCatDto!
+}
+
 type Query {
-  cat: String!
+  cats: [CreateCatDto!]!
 }
